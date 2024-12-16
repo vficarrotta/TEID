@@ -15,9 +15,9 @@
 module load blast/2.12.0
 
 ### blast across three reading frames
-blastp -query zerene_db-families_200_0frame-prot.fasta -db nr
+blastp -query .fasta -db nr
 
-blastp -query zerene_db-families_200_1frame-prot.fasta -db nr
+blastp -query .fasta -db nr
 
-blastp -query zerene_db-families_200_2frame-prot.fasta -db nr
+blastp -query .fasta -db nr
 
